@@ -6,17 +6,17 @@ Includes a Python audit engine, a Streamlit dashboard, synthetic data, and a 90-
 
 ---
 
-## 📦 Features
+##  Features
 
-- ✅ Automated audit of customer records against 3 core DPDP rules
-- 📊 Compliance dashboard with Streamlit
-- 📉 Penalty estimation module (INR and % reduction)
-- 🧭 90-Day compliance roadmap generator
-- 🔐 Configurable thresholds for risk tuning
+-  Automated audit of customer records against 3 core DPDP rules
+-  Compliance dashboard with Streamlit
+-  Penalty estimation module (INR and % reduction)
+-  90-Day compliance roadmap generator
+-  Configurable thresholds for risk tuning
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 ├── data/               → Synthetic + audited customer datasets  
@@ -30,7 +30,7 @@ Includes a Python audit engine, a Streamlit dashboard, synthetic data, and a 90-
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ### 1. Install dependencies  
 ```bash
@@ -54,25 +54,25 @@ python reports/generate_roadmap_report.py
 
 ---
 
-## 📌 Example: DPDP Rules Implemented
-- ✅ Consent not given  
-- 🌐 Unsafe cross-border data sharing  
-- ⚠️ Breach reported after threshold (e.g., 3 days)
+##  Example: DPDP Rules Implemented
+-  Consent not given  
+-  Unsafe cross-border data sharing  
+-  Breach reported after threshold (e.g., 3 days)
 
 ---
 
-## 📈 Penalty Simulation  
+##  Penalty Simulation  
 Estimate total and adjusted penalties based on compliance efforts (e.g., INR 4.7 Cr → INR 2.9 Cr with 38% mitigation).
 
 ---
 
-## 🧪 Based On
+##  Based On
 - DPDP Act 2023  
 - GDPR Mapping  
 - Inputs from 27 fintech professionals
 
 ---
 
-## 🧑‍💻 Author  
+##  Author  
 This is part of a self-initiated compliance project to prepare startups for regulatory readiness in India.
 
